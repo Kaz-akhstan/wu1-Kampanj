@@ -22,7 +22,8 @@ Roboto
 
 
 ## Vecka 17
-
+Jag har experimenterat med en sido navbar som expanderar när man klickar på den och jobbat på min idé. 
+Till nästa vecka så ska jag försöka implementera den in i ett tema och fortsätta jobba på min idé.
 
 
 ## Vecka 18
