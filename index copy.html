@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .container {
+            margin-top: 5rem;
+            width: 100%;
+        }
+        p {
+            margin-bottom: 3rem;
+        }
+        .swatches {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
+
+        }
+        .swatches li {
+            aspect-ratio: 1;
+            display: grid;
+            place-content: center;
+            border-radius: .5rem;
+            font-size: 3rem;
+            text-align: center;
+            border: 1px solid var(--color-shadow);
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <h1>Bygg din kampanj</h1>
+        <p>Välj en mall/tema kopiera html filen, skapa en tema-dittnamn.css och länka den.</p>
+        <ul class="swatches">
+            <li>
+                <a href="theme-no.html">Utan tema</a>
+            </li>
+            <li>
+                <a href="theme-1.html">Tema 1</a>
+            </li>
+            <li>
+                <a href="theme-2.html">Tema 2</a>
+            </li>
+        </ul>
+    </main>
+</body>
+</html>
