@@ -4,6 +4,11 @@
     --color-shadow: hsla(0, 0%, 13%, 0.2);
     --color-primary: hsl(347, 83%, 56%);
     --color-secondary: hsl(275, 100%, 25%);
+    --color-darkgray: #282828;
+    --color-darkergray: #202020;
+    --color-lightred: #DE7C5A;
+    --color-darkred:#570000;
+    --color-red:#B10F2E;
 
     --font-sans: "Merriweather Sans", sans-serif;
 }
@@ -21,6 +26,7 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     padding: 1rem;
 
     font-size: 1.333rem;
@@ -36,6 +42,27 @@ a:hover {
     place-content: center;
 }
 
+.sidebar {
+    position: fixed;
+    display: block;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 6rem;
+    overflow-x: hidden;
+    padding-top: 5rem;
+    background-color: #282828;
+}
+
+.sidebar a {
+    padding: .5rem, .5rem;
+    text-decoration: none;
+    font-size: 25;
+    display: block;
+    color: #818181;
+}
+
 @media (max-width: 768px) {
     .navbar {
         justify-content: space-between;
@@ -43,10 +70,20 @@ a:hover {
     .navbar__collapse {
         display: none;
     }
+    .sidebar{
+        display: none;
+    }
 }
 @media (min-width: 768px) {
     .navbar__toggle {
         display: none;
+    }
+    .navbar__collapse {
+        display: none;
+    }
+    .sidebar
+    {
+        display: block;
     }
 }
 /* https://jensnti.github.io/wu-exempel/navigation/ */
@@ -91,8 +128,8 @@ body {
     display: flex;
     flex-direction: column;
 
-    color: var(--color-dark);
-    background-color: var(--color-light);
+    color: var(--color-light);
+    background-color: var(--color-darkergray);
 
     line-height: 1.5;
     font-size: 1rem;
@@ -104,7 +141,7 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
 }
-
+/**/
 .container:nth-child(2) {
     background-color: var(--color-shadow);
 }
@@ -143,7 +180,7 @@ body {
     margin: 0 0.25rem;
     padding: 0.375rem 0.75rem;
     color: var(--color-light);
-    background-color: var(--color-secondary);
+    background-color: var(--color-red);
     border: 1px solid transparent;
     border-radius: 0.2rem;
     font-size: 2.369rem;

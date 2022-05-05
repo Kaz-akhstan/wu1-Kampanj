@@ -27,3 +27,18 @@ window.addEventListener('load', (event) => {
         }
     });
 });
+
+var openCloseNav  = 0;
+
+function openNav()
+{
+    openCloseNav++;
+    if(openCloseNav % 2 == 0)
+    {
+        document.getElementById("sidebar").style.width = "6rem";
+    }
+    else
+    {
+        document.getElementById("sidebar").style.width = "18rem";
+    }
+}

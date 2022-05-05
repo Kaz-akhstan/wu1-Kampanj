@@ -27,7 +27,7 @@ Till nästa vecka så ska jag försöka implementera den in i ett tema och forts
 
 
 ## Vecka 18
-
+Jag har lagt in en nästan funktionell sidebar och ändrat färgschemat på min hemsida. Till nästa vecka ska jag lägga in min text och fixa sidebaren efter det.
 
 
 ## Vecka 19 NP

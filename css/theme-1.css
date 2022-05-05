@@ -2,6 +2,10 @@
     --color-light-transparent: hsla(0, 0%, 94%, 0.9);
     --color-primary: hsl(20deg 40% 53%);
     --color-secondary: hsl(344deg 45% 13%);
+    --color-darkgray: #282828;
+    --color-lightred: #DE7C5A;
+    --color-darkred:#570000;
+    --color-red:#B10F2E;
 
     --font-headline: serif;
 }
@@ -19,7 +23,7 @@ h1, h2, h3 {
 }
 
 .navbar {
-    background-color: var(--color-light-transparent);
+    background-color: var(--color-red);
     position: sticky;
     top: 0;
 }
@@ -48,7 +52,7 @@ h1, h2, h3 {
 
 .btn:hover {
     color: var(--color-light);
-    background-color: var(--color-primary);
+    background-color: var(--color-darkred);
 }
 
 
