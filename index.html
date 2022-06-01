@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
             href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-            href="https://fonts.googleapis.com/icon?family=Material+Icons"
             rel="stylesheet"
         />
         <link rel="stylesheet" href="css/reset.css" />
@@ -14,7 +13,7 @@
         <link rel="stylesheet" href="css/theme-1.css" /> <!-- prova att ta bort -->
         <title>Kampanj</title>
     </head>
-    <body>
+    <body id="top">
         <div id="overlay" onclick="off()">
             <div id="text-var" style="display: none;"> 
                 År 1996 slog två visionärer samman med ett gemensamt uppdrag att samla, lista och fördela information till resten av världen. 
@@ -26,30 +25,41 @@
                 Men under senare tid så verkar det som denna idé har begravt under lager av bolagisering och TV liknande kontroll över vad som döms lämpligt att säga. 
             </div> <!-- Text sträng till JavaScriptet -->
             <div id="overlay-element">
-                <h2>Bakgrund</h2>
+                <h2 id="overlay-title">Bakgrund</h2>
                 <p id="overlay-text"></p>
                 <div id="bar"></div>
             </div>
         </div>
         <!-- https://jensnti.github.io/wu-exempel/hamburgermeny/ -->
         <nav class="navbar">
-            <div class="title">YouTube - Don't be Evil</div>
+            <a href="#top" class="title">YouTube - Don't be Evil</a>
             <button class="navbar__toggle">
                 <span class="material-symbols-outlined"> menu </span>
             </button>
             <div class="navbar__collapse">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Hem</a>
+                        <a class="nav-link" href="#intro">Dislikens försvinnande</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#intro">Intro</a>
+                        <a class="nav-link" href="#arg2">Avmonetisering</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#arg3">Content ID</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#arg4">Slutsats</a>
                     </li>
                 </ul>
             </div>
         </nav>
         <div class="sidebar">
-
+            <ul class="sidebar-content">
+                <li><a class="sidebar-link" href="#intro"><span class="material-symbols-outlined">thumbs_up_down</span></a></li>
+                <li><a class="sidebar-link" href="#arg2"><span class="material-symbols-outlined">gavel</span></a></li>
+                <li><a class="sidebar-link" href="#arg3"><span class="material-symbols-outlined">lock</span></a></li>
+                <li><a class="sidebar-link" href="#arg4"><span class="material-symbols-outlined">task</span></a></li>
+            </ul>
         </div>
         <header class="hero">
             <div class="container">
@@ -65,7 +75,7 @@
         <!-- https://jensnti.github.io/wu-exempel/media-queries/ -->
         <main class="container">
             <section class="argument" id="intro">
-                <h2>WORKING TITLE</h2>
+                <h2>Dislikens försvinnande</h2>
                 <p>
                     November 2021 markerade datumet då en opopulär och ökänd uppdatering grep tag över YouTube. Borttagandet av den offentliga “dislike baren” var ett kontroversiellt drag av YouTube. 
                     Officiellt enligt så var detta i kampen om att skapa en mer öppen och välkomnande upplevelse för användare och skapare. 
@@ -85,9 +95,9 @@
                     Forbes. YouTube Removed 'Dislikes' Button - It Could Impact 'How To' And 'Crafts' Videos. Forbes 2021. (Hämtad 2022-03-15)
                 </a>
             </section>
-            <section class="argument2">
+            <section class="argument2" id="arg2">
                 <div>
-                    <h3>WORKING TITLE</h3>
+                    <h3>Avmonetisering</h3>
                     <p>
                         YouTube och företaget som äger dom, Google är båda privatägda företag. 
                         Detta betyder att dom har rätten att bestämma hur deras hemsida styrs och hanteras. 
@@ -97,10 +107,10 @@
                     </p>
                     <p>
                         Men detta täcker dom inte från kritik över dom flertal oberättigade blockeringarna och det ständigt ostabila tillståndet som 
-                        YouTubes monetära system för sina skapare befinner sig i just nu. <sup class="ref">2</sup> 
+                        YouTubes monetära system för sina skapare befinner sig i just nu.<sup class="ref">2</sup> 
                         YouTube är just nu en av de största medie plattformarna för att sprida information och hemsidan får regelbundet miljontals visningar per dag. 
                         Då YouTube utgör ungefär 9% av Googles inkomst så bör dom göra allt vad dom kan för att stödja sina 
-                        skapare genom att förbättra sitt monetära annons system. <sup class="ref">3</sup>
+                        skapare genom att förbättra sitt monetära annons system.<sup class="ref">3</sup>
                     </p>
                 </div>
                 <div>
@@ -115,7 +125,7 @@
                     </a>
                 </div>
             </section>
-            <section class="argument">
+            <section class="argument" id="arg3">
                 <div>
                     <h3>Content ID</h3>
                     <p>
@@ -148,7 +158,7 @@
                     </a>
                 </div>
             </section>
-            <section class="end">
+            <section class="end" id="arg4">
                 <div>
                     <h3>Slutsats</h3>
                     <p>
