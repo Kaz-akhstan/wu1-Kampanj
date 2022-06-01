@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
             rel="stylesheet"
         />
@@ -14,11 +15,26 @@
         <title>Kampanj</title>
     </head>
     <body>
+        <div id="overlay" onclick="off()">
+            <div id="text-var" style="display: none;"> 
+                År 1996 slog två visionärer samman med ett gemensamt uppdrag att samla, lista och fördela information till resten av världen. 
+                År 1998 uppfylls deras gemensamma dröm, och sökmotorn Google lanseras till otrolig succé. 
+                Dom följande åren så växer deras företag exponentiellt. 
+                De två skaparna blev omedelbart miljardärer och började sträcka ut företaget i flera olika riktningar genom att köpa upp företag och sälja deras produkter, såsom Google Earth. 
+                Den nionde Oktober 2006 så slog Google guld när dom köpte upp den alldeles nya videodelning plattformen, YouTube. 
+                En hemsida som var baserad på idéen om en social plattform där människor mötte samman för att få dela sina videoklipp fri från dom enorma och restriktiva TV kontrakt. 
+                Men under senare tid så verkar det som denna idé har begravt under lager av bolagisering och TV liknande kontroll över vad som döms lämpligt att säga. 
+            </div> <!-- Text sträng till JavaScriptet -->
+            <div id="overlay-element">
+                <h2>Bakgrund</h2>
+                <p id="overlay-text"></p>
+            </div>
+        </div>
         <!-- https://jensnti.github.io/wu-exempel/hamburgermeny/ -->
         <nav class="navbar">
-            <a class="brand" href="#">Lökigt</a>
+            <a class="brand" href="#">Öppet brev till YouTube</a>
             <button class="navbar__toggle">
-                <span class="material-icons"> menu </span>
+                <span class="material-symbols-outlined"> menu </span>
             </button>
             <div class="navbar__collapse">
                 <ul class="nav">
@@ -31,25 +47,15 @@
                 </ul>
             </div>
         </nav>
-        <div class="sidebar" id="sidebar" onclick="openNav()">
-            <a href="">Inledning</a>
-            <a href="">Inledning</a>
-            <a href="">Inledning</a>
+        <div class="sidebar">
+
         </div>
         <header class="hero">
             <div class="container">
-                <h1>Fram träutensilierna stig, samma.</h1>
-                <p>
-                    Löksås ipsum inom kom dimma häst jäst ta, därmed det jäst
-                    det dimmhöljd kunde del, redan där dunge björnbär tre lax.
-                    Räv nya när hav smultron annat precis icke oss söka sig om
-                    äng, av där dimmhöljd mjuka bra erfarenheter sjö strand vid
-                    miljoner äng. Sitt det fram dimma precis gamla, i blev i sig
-                    räv regn, gamla kan från ingalunda.
-                </p>
+                <h1>Don't be evil</h1>
                 <!-- https://jensnti.github.io/wu-exempel/knappar/ -->
                 <div class="cta">
-                    <a href="#cta" class="btn">Call to action</a>
+                    <button class="btn" onclick="on()"><span class="material-symbols-outlined"> play_arrow </span></button>
                 </div>
             </div>
             <!-- kolla css vad denna gör, ligger över hela hero för att texten ska gå att läsa, kontrast -->
@@ -59,23 +65,6 @@
         <main class="container">
             <section class="intro" id="intro">
                 <h2>Fram träutensilierna stig, samma.</h2>
-                <p>
-                    Löksås ipsum inom kom dimma häst jäst ta, därmed det jäst
-                    det dimmhöljd kunde del, redan där dunge björnbär tre lax.
-                    Räv nya när hav smultron annat precis icke oss söka sig om
-                    äng, av där dimmhöljd mjuka bra erfarenheter sjö strand vid
-                    miljoner äng. Sitt det fram dimma precis gamla, i blev i sig
-                    räv regn, gamla kan från ingalunda.
-                </p>
-                <p>
-                    Det dock där bra fram vi blivit ta söka, därmed sista rännil
-                    äng i har strand och, kan där flera om vemod annat som. Och
-                    del mot är björnbär som och år när blivit, enligt dag åker
-                    annan jäst söka rännil göras, därmed bra och redan tid
-                    vidsträckt att vi. Upprätthållande när se varit att annat i,
-                    som både år dock tre som, om vemod vid nu vad.
-                </p>
-                <h3>Fram träutensilierna stig, samma.</h3>
                 <p>
                     Vemod annan som sista groda i så själv del år
                     upprätthållande vemod smultron kan bra, stora bland ännu

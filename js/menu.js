@@ -28,17 +28,29 @@ window.addEventListener('load', (event) => {
     });
 });
 
-var openCloseNav  = 0;
+var i = 0;
+var txt = document.getElementById("text-var").innerHTML;
+var speed = 25;
 
-function openNav()
+function on()
 {
-    openCloseNav++;
-    if(openCloseNav % 2 == 0)
+    document.getElementById("overlay").style.display = "block";
+    document.getElementById("overlay-text").innerHTML = '';
+    i = 0;
+    typewriter();
+}
+
+function off()
+{
+    document.getElementById("overlay").style.display = "none";
+}
+
+function typewriter()
+{
+    if(i < txt.length)
     {
-        document.getElementById("sidebar").style.width = "6rem";
-    }
-    else
-    {
-        document.getElementById("sidebar").style.width = "18rem";
+        document.getElementById("overlay-text").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typewriter, speed);
     }
 }
