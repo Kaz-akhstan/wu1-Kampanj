@@ -38,7 +38,8 @@ h1, h2, h3 {
 }
 
 .hero {
-    background-image: url(../img/goh-rhy-yan-CCxWLAx0qmk-unsplash.jpg);
+    background-image: url(../img/sara-kurfess-O1mej4P-Rws-unsplash.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-position: left top;
     position: relative;
