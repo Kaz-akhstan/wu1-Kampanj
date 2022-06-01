@@ -30,7 +30,9 @@ window.addEventListener('load', (event) => {
 
 var i = 0;
 var txt = document.getElementById("text-var").innerHTML;
+var bar = document.getElementById("bar");
 var speed = 25;
+var percentage = i/txt.length
 
 function on()
 {
@@ -51,6 +53,12 @@ function typewriter()
     {
         document.getElementById("overlay-text").innerHTML += txt.charAt(i);
         i++;
+        bar.style.width = (i/txt.length)*100+"%";
         setTimeout(typewriter, speed);
     }
+}
+
+function lengthBar()
+{
+    
 }

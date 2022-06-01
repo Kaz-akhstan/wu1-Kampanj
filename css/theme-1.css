@@ -29,6 +29,14 @@ h1, h2, h3 {
     text-align: right;
 }
 
+.link {
+    color: var(--color-lightred);
+}
+
+.link:hover {
+    color: var(--color-red);
+}
+
 .hero {
     background-image: url(../img/goh-rhy-yan-CCxWLAx0qmk-unsplash.jpg);
     background-size: cover;
@@ -39,6 +47,17 @@ h1, h2, h3 {
 
 .hero > .container {
     z-index: 10;
+}
+
+.cite {
+    color: var(--color-lightred);
+    font-weight: bold;
+}
+
+.ref {
+    font-size: 50%;
+    font-weight: bold;
+    color: var(--color-lightred);
 }
 
 .overlay {
@@ -75,6 +94,14 @@ h1, h2, h3 {
     top: 25%;
     transform: translateY(-50%);
     transform: translateX(-50%);
+    justify-content: center;
+    align-items: center;
+}
+
+#bar {
+    width: 0%;
+    padding: .1rem;
+    background-color: var(--color-red);
 }
 
 .btn:hover {
@@ -83,11 +110,15 @@ h1, h2, h3 {
     cursor: pointer;
 }
 
-
-.about {
+.argument2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 1rem;
+}
+
+.title {
+    padding: 0.25rem;
+    font-weight: bold;
 }
 
 @media (max-width: 48rem) {
