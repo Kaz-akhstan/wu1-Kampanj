@@ -62,3 +62,5 @@ Jobbade lite på formen och designen jag var ute efter, började lägga in texte
 
 ## Vecka 22 
 Fixade klart texten och började sedan jobba färdigt på designen, valde att göra om sidebaren, såg även till att hemsidan fungerade responsivt. Dessutom så klarade hemsidan både wave och validator test utan problem.
+
+Hemsidan blev testad i både Edge och Chrome och fungerar även väl på mobiltelefon.
