@@ -136,6 +136,34 @@ h1, h2, h3 {
     color: var(--color-light);
 }
 
+.textFX {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    display: block;
+    color: var(--color-red);
+    border-radius: .5rem;
+    padding: 2rem;
+}
+
+h1:nth-child(2) {
+    position: absolute;
+    color: var(--color-light-transparent);
+    background-color: var(--color-red);
+    animation-name: slide-down;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-down {
+    50% {clip-path: inset(-1% -1% 100% -1%);}
+    100% {clip-path: inset(-1% -1% 0% -1%);}
+}
+
 @media (max-width: 1200px) {
     .argument2 {
         display: flex;
