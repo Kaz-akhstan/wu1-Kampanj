@@ -3,7 +3,8 @@
 Skriv ned tema, färger, vad handlar din text om.
 Skapa 
 
-Min text handlar om YouTube och därför hade jag tänkt en layout inspirerad av deras homepage. Den kommer ha en side bar där man kan välja olika "kapitel" eller argument ifrån texten som man kan snabb hoppa till, på mobil versionen kommer jag däremot ha en hamburgaremeny istället då den tar upp mycket mindre utrymme. Eftersom att det är YouTube jag pratar om så tycker jag att det hade varit passande ifall jag kunde ha vissa delar av texten likna deras videospelare. 
+Min text handlar om YouTube och därför hade jag tänkt en layout inspirerad av deras homepage. Den kommer ha en side bar där man kan välja olika "kapitel" eller argument ifrån texten som man kan snabb hoppa till, på mobil versionen kommer jag däremot ha en hamburgaremeny istället då den tar upp mycket mindre utrymme. Eftersom att det är YouTube jag pratar om så tycker jag att det hade varit passande ifall jag kunde ha vissa delar av texten likna deras videospelare. Jag vill likna YouTubes layout så mycket som möjligt men med vissa anpassningar för att passa kampanjen. Jag tror att det komer passa målgruppen då det visar att kampanjen är till för att visa uppskattning för YouTube fast visa att det fortfarande kan göra bättre i vissa saker. 
+Färgerna och fonten är båda inspirerade av YouTube, de klassiska röda, svarta och vita färgerna som ofta används för YouTube ska vara huvudfärgerna. Även fonten Roboto är en font som YouTube använder. Formerna och ikonerna ska vara någorlunda minimalistiska för att matcha hur Google ofta designar sina ikoner.
 
 https://www.figma.com/file/S8SdQgtK62ryejj8nWLtZE/Untitled?node-id=0%3A1
 
