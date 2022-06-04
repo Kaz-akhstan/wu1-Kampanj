@@ -149,6 +149,7 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
 /**/
 .container:nth-child(2) {
     background-color: var(--color-shadow);
@@ -171,6 +172,12 @@ body {
 @media (min-width: 62rem) {
     .container {
         max-width: 62rem;
+    }
+}
+@media (min-width: 135rem) {
+    .container {
+        max-width: 75rem;
+        font-size: larger;
     }
 }
 
