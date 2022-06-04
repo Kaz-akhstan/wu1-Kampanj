@@ -3,7 +3,9 @@
 Skriv ned tema, färger, vad handlar din text om.
 Skapa 
 
-Min text handlar om YouTube och därför hade jag tänkt en layout inspirerad av deras homepage. 
+Min text handlar om YouTube och därför hade jag tänkt en layout inspirerad av deras homepage. Den kommer ha en side bar där man kan välja olika "kapitel" eller argument ifrån texten som man kan snabb hoppa till, på mobil versionen kommer jag däremot ha en hamburgaremeny istället då den tar upp mycket mindre utrymme. Eftersom att det är YouTube jag pratar om så tycker jag att det hade varit passande ifall jag kunde ha vissa delar av texten likna deras videospelare. 
+
+https://www.figma.com/file/S8SdQgtK62ryejj8nWLtZE/Untitled?node-id=0%3A1
 
 * # Färger
 
